@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+    *{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.navbar{
+    background-color: rgb(194, 9, 9);
+    font-size: small;
+    position:fixed;
+    top:0;
+    overflow: hidden;
+    width:100%;
+    z-index: 9999;
+
+    
+
+    
+    
+    
+   
+}
+.navbar li{
+     float:left; 
+     list-style: none; 
+     margin: 27px 20px;
+     
+     
+}
+.navbar ul{
+    overflow:auto;
+    
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:white;
+}
+.navbar li a::after{
+    content:'';
+    width:0;
+    height:2px;
+    background-color: white;
+    margin:auto;
+    display:block;
+}
+.navbar li a:hover::after{
+    width:100%;
+    transition: width 0.3s linear;
+}
+
+
+.logo{
+    width:115px;
+    height:100px;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
+.logo img{
+    width:100%;
+    
+
+
+}
+
+
+
+.img{
+    display: flex;
+    overflow-x: hidden;
+    margin-top: 50px;
+    margin-left: -100px;
+    
+    
+    
+}
+.img img{
+    transform: 1.5s;
+}
+.getitnow {
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    color:white
+}
+
+.strawberry{
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    font-weight: dark;
+    color:white;
+    
+}
+.button1{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    letter-spacing: 5px;
+
+
+}
+.button1:hover{
+    background-color: transparent;
+    transition: 2s;
+    border:1;
+    color:white;
+    
+
+}
+
+.hydrationtext img{
+    position: absolute;
+    right:100px;
+}
+
+.bottles{
+    display: flex;
+   
+    align-items: baseline;
+   
+    
+    
+
+}
+.bottles1 img{
+    position: absolute;
+    top:1100px;
+    width:250px;
+}
+#tropical{
+    left:200px;
+
+}
+#blueberry{
+    left:420px
+}
+
+#meta{
+    left:640px
+}
+
+#icepop{
+    right:410px;
+}
+
+#strawberry{
+    right: 200px;
+}
+
+#figc1{
+    position: absolute;
+    left:245px;
+    top:1350px;
+    
+}
+#figc2{
+    position: absolute;
+    left:490px;
+    top:1350px;
+}
+#figc3{
+    position: absolute;
+    left:709px;
+    top:1350px;
+}
+#figc4{
+    position: absolute;
+    left:950px;
+    top:1350px;
+}
+#figc5{
+    position: absolute;
+    left:1130px;
+    top:1350px;
+}
+
+#button11{
+    position: absolute;
+    left:262px;
+    top: 1385px;
+    width:125px;
+    height:40px;
+    background-color: white;
+    border:1px solid black;
+}
+#button12{
+    position: absolute;
+    left:477px;
+    top: 1385px;
+    width:125px;
+    height:40px;
+    background-color: white;
+    border:1px solid black;
+}
+#button13{
+    position: absolute;
+    left:699px;
+    top: 1385px;
+    width:125px;
+    height:40px;
+    background-color: white;
+    border:1px solid black;
+}
+#button14{
+    position: absolute;
+    left:920px;
+    top: 1385px;
+    width:125px;
+    height:40px;
+    background-color: white;
+    border:1px solid black;
+}
+#button15{
+    position: absolute;
+    left:1126px;
+    top: 1385px;
+    width:125px;
+    height:40px;
+    background-color: white;
+    border:1px solid black;
+}
+#button11:hover{
+    background-color: black;
+    color:white;
+    transition: 1.03s;
+}
+#button12:hover{
+    background-color: black;
+    color:white;
+    transition: 1.03s;
+}
+#button13:hover{
+    background-color: black;
+    color:white;
+    transition: 1.03s;
+}
+#button14:hover{
+    background-color: black;
+    color:white;
+    transition: 1.03s;
+}
+#button15:hover{
+    background-color: black;
+    color:white;
+    transition: 1.03s;
+}
+
+.bottlesbg{
+   position: absolute;
+   top:1500px;
+   width:100%;
+   height: 750px;
+   display: grid;
+   grid-template-columns: 700px 700px;
+   grid-template-rows: 700px ;
+   grid-gap: 20px;
+   place-content: center; 
+}
+
+#bottlebgg1 img{
+    position: absolute;
+    left:200px;
+    width:500px;
+    height: 500px;
+}
+#bottlebgg2 img{
+    position: absolute;
+    right:200px;
+    top:80px;
+    width:400px;
+    height: 250px;
+}
+#bottlebgg2 button{
+    position: absolute;
+    right:310px;
+    top:350px;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color:black;
+    letter-spacing: 2px;
+    color:white;
+    
+}
+#bottlebgg2 button:hover{
+    background-color: white;
+    color:black;
+    transition:1.03s;
+}
+
+.energytext img{
+    position: absolute;
+    top:2100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.cans{
+    /* border: 1px solid brown;
+    background-color: yellow; */
+    display: grid;
+    position: absolute;
+    top:2200px;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 400px ;
+    grid-gap: 20px;
+    
+    /* justify-content:space-around; */
+    /* align-items:center; */
+    place-content: center;
+    
+}
+
+.cans11 figcaption{
+    position: absolute;
+    bottom:27%;
+
+}
+.cans11 button{
+    position: absolute;
+    bottom: 15%;
+    width: 125px;
+    height: 40px;
+    background-color:white;
+    color:black;
+    border: 1px solid #000;
+
+}
+.cans11 img{
+    width: 300px;
+}
+#c1 img{
+    position: absolute;
+    left: 11.5%;
+}
+#c2 img{
+    position: absolute;
+    left: 25.7%;
+}
+#c3 img{
+    position: absolute;
+    left:40%;
+}
+#c4 img{
+    position: absolute;
+    left:54.7%;
+}
+#c5 img{
+    position: absolute;
+    left:69%;
+}
+#fc21{
+    position: absolute;
+    left:17.2%;
+}
+#fc22{
+    position: absolute;
+    left:30.5%;
+}
+#fc23{
+    position: absolute;
+    left:45.25%;
+}
+#fc24{
+    position: absolute;
+    left:60.95%;
+}
+#fc25{
+    position: absolute;
+    left:75.5%;
+}
+#button21{
+    left:17%;
+}
+#button22{
+    left:31.45%;
+}
+#button23{
+    left:45.8%;
+}
+#button24{
+    left:60.4%;
+}
+#button25{
+    left:74.8%;
+}
+.cans11 button:hover{
+    background-color: black;
+    color:white;
+    transition:1.03s
+}
+.bottlesbg2{
+    position: absolute;
+    top:2700px;
+    width:100%;
+    height: 750px;
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 700px ;
+    grid-gap: 20px;
+    place-content: center; 
+ }
+
+ #bottlebggg1 img{
+    position: absolute;
+    left:200px;
+    width:500px;
+    height: 500px;
+}
+#bottlebggg2 img{
+    position: absolute;
+    right:200px;
+    top:80px;
+    width:500px;
+    height: 300px;
+}
+
+#bottlebggg2 button{
+    position: absolute;
+    right:365px;
+    top:390px;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color:black;
+    letter-spacing: 2px;
+    color:white;
+    
+}
+#bottlebggg2 button:hover{
+    background-color: white;
+    color:black;
+    transition:1.03s;
+}
+
+.footer{
+    display: grid;
+    position: absolute;
+    top: 3325px;
+    width: 100%;
+    height: 350px;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 20px; 
+    background-color: #000;
+    padding: 75px;
+
+}
+.footgrid{
+    border: 1px solid #000;
+}
+
+#fg1 {
+    color:white;
+}
+#fg1 p {
+    font-size: small;
+}
+
+#fg2{
+    color:white;
+}
+
+#fg2 p {
+    font-size: small;
+}
+
+ #fg1 h3{
+    position: absolute; 
+    bottom: 20px;
+    color:aquamarine
+    
+} 
